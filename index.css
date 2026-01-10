@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Michroma&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#para
+{
+    font-family: 'Michroma', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    padding: 3rem;
+}
+
+@media (max-width: 768px)
+{
+    #para
+    {
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+    
+}
+
+
+
+#gt
+{
+    text-align: center;
+    font-family: 'PT Serif', sans-serif;
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+@media (max-width:768px) {
+    #gt {
+        font-size: 2rem;
+    }
+}
+
+
+.intro-text
+{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:768px) {
+    
+    .intro-text{
+        /* flex-direction: column-reverse; */
+        margin-top: 2rem;
+    
+    }
+
+    #para
+    {
+        order: 2;
+    }
+
+    #gt
+    {
+        order: 1;
+    }
+
+   
+}
+
+nav{
+    border: solid 1.5px rgba(0, 0, 0, 0.633);
+    width: 90%;
+    margin:0 auto;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 6%;
+}
+
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin: 0 20px;
+    font-family: 'Cinzel', serif;
+     border: solid 1.5px rgba(0, 0, 0, 0.633);
+    border-top: none;
+    border-bottom: none;
+    padding: 0 10px;
+}
+
+nav ul 
+{
+
+   
+
+}
+   
+
+

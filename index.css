@@ -119,7 +119,7 @@ nav ul .fa-xmark {
     cursor: pointer;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     
     nav .fa-bars,
 nav .fa-magnifying-glass,
@@ -135,13 +135,17 @@ nav ul .fa-xmark {
 {
     display: flex;
    flex-direction: column;
+   
 }
+
+
+
 
 @media(max-width:768px)
 {
     .hp
     {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     nav
@@ -152,6 +156,7 @@ nav ul .fa-xmark {
         align-items: center;
         border-left: none;
         border-right: none;
+        border-top:solid 1.5px rgba(0, 0, 0, 0.633);
     }
     
     nav ul {
@@ -196,5 +201,21 @@ nav ul .fa-xmark {
 
     nav > i {
         display: block;
+    }
+}
+
+@media (min-width: 1025px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro-text {
+        order: 1;
+    }
+
+    nav {
+        order: 2;
     }
 }

@@ -222,3 +222,15 @@ nav ul .fa-xmark {
         order: 2;
     }
 }
+
+nav ul li:first-child:hover
+{
+   background-color: linear-gradient(
+  45deg,
+  #F58529,
+  #FEDA77,
+  #DD2A7B,
+  #8134AF,
+  #515BD4
+);
+}

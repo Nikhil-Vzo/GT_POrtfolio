@@ -110,10 +110,24 @@ nav ul li:first-child {
     border-left: solid 1.5px rgba(0, 0, 0, 0.633);
 }
 
-nav > i {
+/* Hide mobile-only icons by default (for desktop) */
+nav .fa-bars,
+nav .fa-magnifying-glass,
+nav ul .fa-xmark {
     display: none;
     font-size: 1.5rem;
     cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    
+    nav .fa-bars,
+nav .fa-magnifying-glass,
+nav ul .fa-xmark {
+    display: block;
+    
+}
+    
 }
 
 

@@ -30,6 +30,8 @@
         font-size: 1.5rem;
         padding: 2rem;
     }
+
+    
     
 }
 
@@ -85,7 +87,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: stretch;
-    border-top: none;
+
 }
 
 nav ul {
@@ -110,7 +112,7 @@ nav ul li:first-child {
     border-left: solid 1.5px rgba(0, 0, 0, 0.633);
 }
 
-/* Hide mobile-only icons by default (for desktop) */
+
 nav .fa-bars,
 nav .fa-magnifying-glass,
 nav ul .fa-xmark {
@@ -184,6 +186,7 @@ nav ul .fa-xmark {
         width: 100%;
         text-align: center;
         border-bottom: 1px solid #f0f0f0;
+        justify-content: center;
     }
 
     nav ul li:first-child {

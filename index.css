@@ -208,7 +208,7 @@ nav ul .fa-xmark {
 }
 
 @media (min-width: 1025px) {
-    body {
+    .hp {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -221,16 +221,9 @@ nav ul .fa-xmark {
     nav {
         order: 2;
     }
+
+    .f-post {
+        order: 3;
+    }
 }
 
-nav ul li:first-child:hover
-{
-   background-color: linear-gradient(
-  45deg,
-  #F58529,
-  #FEDA77,
-  #DD2A7B,
-  #8134AF,
-  #515BD4
-);
-}

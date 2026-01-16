@@ -313,4 +313,18 @@ nav ul .fa-xmark {
             width: 50%;
             margin-left: 1rem
         }
+
+        .f-info, .f-info2
+        {
+            width: 80vw;
+            margin-left: 2vw;
+            padding-top: 1rem;
+            margin: 0 auto;
+        }
+    }
+
+
+    .cta
+    {
+        
     }

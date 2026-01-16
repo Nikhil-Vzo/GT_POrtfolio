@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Michroma&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Creepster&family=Michroma&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
 
@@ -16,7 +16,7 @@
     font-family: 'Michroma', sans-serif;
     font-weight: 500;
     font-size: 2rem;
-    color: black;
+    color: #8B0000;
     text-align: center;
     letter-spacing: 5px;
     word-spacing: 5px;
@@ -43,6 +43,7 @@
     font-family: 'PT Serif', sans-serif;
     font-weight: 500;
     font-size: 4.5rem;
+    color: #8B0000;
 }
 
 @media (max-width:768px) {
@@ -275,6 +276,7 @@ nav ul .fa-xmark {
 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: #8B0000;
 }
 
 @media (max-width: 768px) {
@@ -444,6 +446,7 @@ nav ul .fa-xmark {
     height: 100vh;
     width: 60vw;
     position: relative;
+    
 }
 
 .content
@@ -472,10 +475,11 @@ nav ul .fa-xmark {
 
 .head p
 {
-    font-family: 'Cinzel', serif;
+    font-family: 'Creepster', cursive;
     font-size: 3rem;
     text-align: center;
     padding-top: 4rem;
+    color: #8B0000;
 }
 
 .content img
